@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.header,
+.banner,
+.footer {
+    background-color: #1f2937;
+}
+
+.testimony-section {
+    background-color: #e5e7eb;
+}
