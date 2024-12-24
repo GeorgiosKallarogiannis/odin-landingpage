@@ -1,13 +1,48 @@
 body {
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .header,
 .banner,
 .footer {
     background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header img {
+    font-size: 24px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.product-info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .testimony-section {
+    p:first-child {
+        color: #1f2937;
+        font-size: 36px;
+        font-weight: lighter;
+    }
     background-color: #e5e7eb;
+}
+
+a,
+.banner p {
+    font-size: 18px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+button {
+    color: #ffffff;
+    background-color: #3882f3;
 }
